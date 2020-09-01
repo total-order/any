@@ -108,7 +108,14 @@
   "keywords": [
     "comparison",
     "deep",
-    "object"
+    "object",
+    "total",
+    "order",
+    "sort",
+    "compare",
+    "arrays",
+    "objects",
+    "sorted"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
