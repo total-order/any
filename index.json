@@ -1,0 +1,754 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import assert from 'assert';\nimport {\n\tincreasing as compare,\n\tquasilexicographical,\n\tattr,\n} from '@aureooms/js-compare';\nimport {MemoryEfficientPairs as Pairs} from '@aureooms/js-pairs';\n// Import {zip} from '@aureooms/js-itertools';\n\n// Const compareIterables = (a, b) => {\n// for (const [left, right] of zip(a, b)) {\n// const delta = compare(left, right);\n// if (delta !== 0) return delta;\n// }\n\n// return 0;\n// };\n\nconst deepCompare = (a, b) => {\n\tif (a === b) return 0;\n\n\tconst left = [[a]];\n\tconst right = [[b]];\n\tconst pos = [0];\n\tconst pendingOrChecked = Pairs.from([]);\n\n\twhile (left.length !== 0) {\n\t\tassert(left.length === right.length);\n\t\tassert(left.length === pos.length);\n\n\t\tconst last = left.length - 1;\n\t\tconst array_a = left[last];\n\t\tconst array_b = right[last];\n\t\tconst i = pos[last];\n\n\t\tassert(array_a.length === array_b.length);\n\t\tassert(i >= 0 && i <= array_a.length);\n\t\tif (i === array_a.length) {\n\t\t\tleft.pop();\n\t\t\tright.pop();\n\t\t\tpos.pop();\n\t\t\tcontinue;\n\t\t}\n\n\t\t++pos[last];\n\n\t\tconst _a = array_a[i];\n\t\tconst _b = array_b[i];\n\t\tconst typeof_a = typeof _a;\n\t\tconst typeof_b = typeof _b;\n\n\t\tconst delta_type = compare(typeof_a, typeof_b);\n\t\tif (delta_type !== 0) return delta_type;\n\n\t\tif (typeof_a !== 'object') {\n\t\t\tconst delta_primitive = comparePrimitives(typeof_a, _a, _b);\n\t\t\tif (delta_primitive !== 0) return delta_primitive;\n\t\t\tcontinue;\n\t\t}\n\n\t\tassert(typeof_a === 'object');\n\n\t\tif (pendingOrChecked.has([_a, _b])) continue;\n\t\tpendingOrChecked.add([_a, _b]);\n\t\tpendingOrChecked.add([_b, _a]);\n\n\t\tconst constructor_a = a.constructor;\n\t\tconst constructor_b = b.constructor;\n\n\t\tif (constructor_a !== constructor_b)\n\t\t\treturn compare(constructor_a.name, constructor_b.name);\n\n\t\t// TODO typed arrays\n\t\t// TODO other built-ins, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects\n\t\tswitch (constructor_a) {\n\t\t\tcase RegExp:\n\t\t\t\tconst delta_regexp = compare(_a.toString(), _b.toString());\n\t\t\t\tif (delta_regexp !== 0) return delta_regexp;\n\t\t\t\tcontinue;\n\t\t\tcase Date:\n\t\t\t\tconst delta_date = compare(_a.getTime(), _b.getTime());\n\t\t\t\tif (delta_date !== 0) return delta_date;\n\t\t\t\tcontinue;\n\t\t\tcase Array:\n\t\t\t\tif (_a.length !== _b.length) return _a.length - _b.length;\n\t\t\t\tleft.push(_a);\n\t\t\t\tright.push(_b);\n\t\t\t\tpos.push(0);\n\t\t\t\tcontinue;\n\t\t\tcase Object:\n\t\t\t\tconst keys_a = Object.keys(_a).sort(compare);\n\t\t\t\tconst keys_b = Object.keys(_b).sort(compare);\n\n\t\t\t\tconst delta_keys = compareStringArrays(keys_a, keys_b);\n\t\t\t\tif (delta_keys !== 0) return delta_keys;\n\n\t\t\t\tconst values_a = Object.entries(_a)\n\t\t\t\t\t.sort(compareEntries)\n\t\t\t\t\t.map((x) => x[1]);\n\t\t\t\tconst values_b = Object.entries(_b)\n\t\t\t\t\t.sort(compareEntries)\n\t\t\t\t\t.map((x) => x[1]);\n\n\t\t\t\tleft.push(values_a);\n\t\t\t\tright.push(values_b);\n\t\t\t\tpos.push(0);\n\t\t\t\tcontinue;\n\t\t\tdefault:\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`deepCompare: unhandled constructor '${constructor_a.name}'`,\n\t\t\t\t);\n\t\t}\n\t}\n\n\treturn 0;\n};\n\nconst comparePrimitives = (kind, _a, _b) => {\n\tassert(kind !== 'object');\n\tswitch (kind) {\n\t\tcase 'number':\n\t\t\tif (Number.isNaN(_a)) {\n\t\t\t\tif (Number.isNaN(_b)) return 0;\n\t\t\t\treturn 1;\n\t\t\t}\n\n\t\t\tif (Number.isNaN(_b)) {\n\t\t\t\treturn -1;\n\t\t\t}\n\n\t\tcase 'boolean':\n\t\tcase 'string':\n\t\tcase 'bigint':\n\t\t\treturn compare(_a, _b);\n\t\tcase 'function':\n\t\t\treturn compare(_a.toString(), _b.toString());\n\t\tdefault:\n\t\t\tthrow new Error(`deepCompare: unhandled primitive type '${kind}'`);\n\t}\n};\n\nconst compareEntries = attr(compare, 0);\n// Const compareArrays = quasilexicographical(deepCompare);\nconst compareStringArrays = quasilexicographical(compare);\n// Const compareObjects = (a, b) => {\n// const keys_a = Object.keys(a).sort(compare);\n// const keys_b = Object.keys(b).sort(compare);\n\n// const delta_keys = compareStringArrays(keys_a, keys_b);\n// if (delta_keys !== 0) return delta_keys;\n\n// const values_a = Object.entries(a)\n// .sort(compareEntries)\n// .map((x) => x[1]);\n// const values_b = Object.entries(b)\n// .sort(compareEntries)\n// .map((x) => x[1]);\n\n// return compareArrays(values_a, values_b);\n// };\n\nexport default deepCompare;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-total-order/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "comparePrimitives",
+    "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~comparePrimitives",
+    "access": "public",
+    "export": false,
+    "importPath": "total-order/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 118,
+    "undocument": true,
+    "params": [
+      {
+        "name": "kind",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "compareEntries",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~compareEntries",
+    "access": "public",
+    "export": false,
+    "importPath": "total-order/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 142,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "compareStringArrays",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~compareStringArrays",
+    "access": "public",
+    "export": false,
+    "importPath": "total-order/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 144,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "deepCompare",
+    "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~deepCompare",
+    "access": "public",
+    "export": true,
+    "importPath": "total-order/src/index.js",
+    "importStyle": "deepCompare",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "[total-order](https://aureooms.github.io/js-total-order)\n==\n\nA total order for all JavaScript values.\nSee [docs](https://aureooms.github.io/js-total-order/index.html).\n\n> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\n[![License](https://img.shields.io/github/license/aureooms/js-total-order.svg)](https://raw.githubusercontent.com/aureooms/js-total-order/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/total-order.svg)](https://www.npmjs.org/package/total-order)\n[![Build](https://img.shields.io/travis/aureooms/js-total-order/master.svg)](https://travis-ci.org/aureooms/js-total-order/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-total-order.svg)](https://david-dm.org/aureooms/js-total-order)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-total-order.svg)](https://david-dm.org/aureooms/js-total-order?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-total-order.svg)](https://github.com/aureooms/js-total-order/issues)\n[![Downloads](https://img.shields.io/npm/dm/total-order.svg)](https://www.npmjs.org/package/total-order)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-total-order/master.svg)](https://codecov.io/gh/aureooms/js-total-order)\n<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-total-order/master.svg)](https://coveralls.io/r/aureooms/js-total-order)-->\n<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/test_coverage_new_code)-->\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-total-order/badge.svg)](https://aureooms.github.io/js-total-order/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/js-total-order)](https://bundlephobia.com/result?p=js-total-order)\n",
+    "longname": "/home/aureooms/dev/js/js-total-order/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"total-order\",\n  \"description\": \"Deep Object comparison for JavaScript\",\n  \"version\": \"0.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"development\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"production\": {\n        \"plugins\": [\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-total-order/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-compare\": \"^1.4.8\",\n    \"@aureooms/js-itertools\": \"^4.1.0\",\n    \"@aureooms/js-pairs\": \"^0.0.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.11.5\",\n    \"@babel/core\": \"7.11.5\",\n    \"@babel/preset-env\": \"7.11.5\",\n    \"@babel/register\": \"7.11.5\",\n    \"ava\": \"3.12.1\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.0.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.5.0\",\n    \"nyc\": \"15.1.0\",\n    \"power-assert\": \"^1.6.1\",\n    \"regenerator-runtime\": \"0.13.7\",\n    \"xo\": \"0.33.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://aureooms.github.io/js-total-order\",\n  \"keywords\": [\n    \"comparison\",\n    \"deep\",\n    \"object\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/aureooms/js-total-order\"\n  },\n  \"scripts\": {\n    \"build\": \"babel --delete-dir-on-start --env-name production src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"dev\": \"npm run lint -- --fix && npm run cover -- -- -st --fail-fast\",\n    \"esdoc\": \"esdoc\",\n    \"lint\": \"xo\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"ava\",\n    \"travis\": \"npm run lint && npm run cover\"\n  },\n  \"sideEffects\": false,\n  \"xo\": {\n    \"prettier\": true,\n    \"ignore\": [\n      \"lib\",\n      \"doc\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"camelcase\": \"off\",\n      \"no-case-declarations\": \"off\",\n      \"no-fallthrough\": \"off\",\n      \"unicorn/filename-case\": [\n        \"error\",\n        {\n          \"case\": \"camelCase\"\n        }\n      ]\n    }\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-total-order/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-total-order/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-total-order/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add total-order\n```\n\n### npm\n```terminal\nnpm install total-order --save\n```\n\n### jspm\n```terminal\njspm install npm:total-order\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-total-order/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( 'regenerator-runtime/runtime' );\n// or\nimport 'regenerator-runtime/runtime.js' ;\n```\n\nThen, import the library where needed\n```js\nconst totalOrder = require( 'total-order' ) ;\n// or\nimport * as totalOrder from 'total-order' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-total-order/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/aureooms/js-total-order/tree/master/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]
