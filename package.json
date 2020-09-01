@@ -1,7 +1,7 @@
 {
   "name": "total-order",
   "description": "Deep Object comparison for JavaScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "aureooms",
   "ava": {
     "files": [
