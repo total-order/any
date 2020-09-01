@@ -4,6 +4,7 @@ import {
 	quasilexicographical,
 	attr,
 } from '@aureooms/js-compare';
+import {MemoryEfficientPairs as Pairs} from '@aureooms/js-pairs';
 // Import {zip} from '@aureooms/js-itertools';
 
 // Const compareIterables = (a, b) => {
@@ -16,13 +17,12 @@ import {
 // };
 
 const deepCompare = (a, b) => {
-	// TODO check for circular refs
-
 	if (a === b) return 0;
 
 	const left = [[a]];
 	const right = [[b]];
 	const pos = [0];
+	const pendingOrChecked = Pairs.from([]);
 
 	while (left.length !== 0) {
 		assert(left.length === right.length);
@@ -59,6 +59,10 @@ const deepCompare = (a, b) => {
 		}
 
 		assert(typeof_a === 'object');
+
+		if (pendingOrChecked.has([_a, _b])) continue;
+		pendingOrChecked.add([_a, _b]);
+		pendingOrChecked.add([_b, _a]);
 
 		const constructor_a = a.constructor;
 		const constructor_b = b.constructor;

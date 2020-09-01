@@ -77,7 +77,8 @@
   },
   "dependencies": {
     "@aureooms/js-compare": "^1.4.8",
-    "@aureooms/js-itertools": "^4.1.0"
+    "@aureooms/js-itertools": "^4.1.0",
+    "@aureooms/js-pairs": "^0.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.11.5",

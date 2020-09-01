@@ -115,3 +115,54 @@ test(
 	0,
 );
 // Test(macro, function () { return 1 }, () => 1, ?); // babel duplicate
+
+test('circular x = {x: x}', (t) => {
+	const x = {};
+	x.x = x;
+	t.is(0, deepCompare(x, x));
+});
+
+test('circular x = y', (t) => {
+	const x = {};
+	x.x = x;
+	const y = {};
+	y.x = y;
+	t.is(0, deepCompare(x, y));
+	t.is(0, deepCompare(y, x));
+});
+
+test('circular x < z', (t) => {
+	const x = {x: 0, z: 0};
+	x.y = x;
+	const z = {x: 0, z: 1};
+	z.y = z;
+	t.is(-1, deepCompare(x, z));
+	t.is(1, deepCompare(z, x));
+});
+
+test('circular x = z', (t) => {
+	const x = {x: 0, z: 0};
+	x.y = x;
+	const z = {x: 0, z: 0};
+	z.y = z;
+	t.is(0, deepCompare(x, z));
+	t.is(0, deepCompare(z, x));
+});
+
+test('circular a = b', (t) => {
+	const a = [1, 2, 3];
+	const b = [1, 2, 3];
+	a[1] = b;
+	b[1] = a;
+	t.is(0, deepCompare(a, b));
+	t.is(0, deepCompare(b, a));
+});
+
+test('circular a < b', (t) => {
+	const a = [1, 2, 3];
+	const b = [1, 2, 4];
+	a[1] = b;
+	b[1] = a;
+	t.is(-1, deepCompare(a, b));
+	t.is(1, deepCompare(b, a));
+});
