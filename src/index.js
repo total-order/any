@@ -60,6 +60,15 @@ const deepCompare = (a, b) => {
 
 		assert(typeof_a === 'object');
 
+		if (_a === null) {
+			if (_b === null) continue;
+			return -1;
+		}
+
+		if (_b === null) {
+			return 1;
+		}
+
 		if (pendingOrChecked.has([_a, _b])) continue;
 		pendingOrChecked.add([_a, _b]);
 		pendingOrChecked.add([_b, _a]);

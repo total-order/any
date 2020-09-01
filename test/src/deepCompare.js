@@ -68,6 +68,7 @@ test(macro, null, undefined, -1);
 test(macro, undefined, null, 1);
 test(macro, undefined, {}, 1);
 test(macro, {}, undefined, -1);
+test(macro, null, {}, -1);
 test(macro, {}, {}, 0);
 test(macro, {}, {a: 1}, -1);
 test(macro, {a: 1}, {}, 1);
