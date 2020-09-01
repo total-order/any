@@ -22,4 +22,4 @@ See [docs](https://aureooms.github.io/js-total-order/index.html).
 <!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-total-order/badge.svg)](https://aureooms.github.io/js-total-order/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/js-total-order)](https://bundlephobia.com/result?p=js-total-order)
+[![Package size](https://img.shields.io/bundlephobia/minzip/total-order)](https://bundlephobia.com/result?p=total-order)
