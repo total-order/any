@@ -106,16 +106,16 @@
   ],
   "homepage": "https://aureooms.github.io/js-total-order",
   "keywords": [
+    "arrays",
+    "compare",
     "comparison",
     "deep",
     "object",
-    "total",
+    "objects",
     "order",
     "sort",
-    "compare",
-    "arrays",
-    "objects",
-    "sorted"
+    "sorted",
+    "total"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
