@@ -13,7 +13,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "deepcompare"
+          "title": "total-order"
         },
         "test": {
           "type": "ava",

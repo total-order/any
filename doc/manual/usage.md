@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const deepcompare = require( 'deepcompare' ) ;
+const totalOrder = require( 'total-order' ) ;
 // or
-import * as deepcompare from 'deepcompare' ;
+import * as totalOrder from 'total-order' ;
 ```

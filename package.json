@@ -1,5 +1,5 @@
 {
-  "name": "deepcompare",
+  "name": "total-order",
   "description": "Deep Object comparison for JavaScript",
   "version": "0.0.0",
   "author": "aureooms",
@@ -73,7 +73,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/deepcompare/issues"
+    "url": "https://github.com/aureooms/js-total-order/issues"
   },
   "dependencies": {
     "@aureooms/js-compare": "^1.4.8",
@@ -104,7 +104,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://aureooms.github.io/deepcompare",
+  "homepage": "https://aureooms.github.io/js-total-order",
   "keywords": [
     "comparison",
     "deep",
@@ -117,7 +117,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/deepcompare"
+    "url": "https://github.com/aureooms/js-total-order"
   },
   "scripts": {
     "build": "babel --delete-dir-on-start --env-name production src -d lib",

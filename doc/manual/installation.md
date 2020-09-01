@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add deepcompare
+yarn add total-order
 ```
 
 ### npm
 ```terminal
-npm install deepcompare --save
+npm install total-order --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:deepcompare
+jspm install npm:total-order
 ```
