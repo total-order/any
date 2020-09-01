@@ -167,3 +167,36 @@ test('circular a < b', (t) => {
 	t.is(-1, deepCompare(a, b));
 	t.is(1, deepCompare(b, a));
 });
+
+test('README', (t) => {
+	const values = [
+		[1, 2, 3],
+		0,
+		undefined,
+		{x: 1},
+		new Date(1),
+		null,
+		{},
+		/abc/,
+		new Date(0),
+		'abc',
+		[],
+		Number.NaN,
+	];
+	const sorted = [
+		0,
+		Number.NaN,
+		null,
+		[],
+		[1, 2, 3],
+		new Date(0),
+		new Date(1),
+		{},
+		{x: 1},
+		/abc/,
+		'abc',
+		undefined,
+	];
+	const result = values.slice().sort(deepCompare);
+	t.deepEqual(sorted, result);
+});

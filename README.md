@@ -7,6 +7,25 @@ See [docs](https://aureooms.github.io/js-total-order/index.html).
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
+```js
+	import totalOrder from 'total-order'
+	[ [1, 2, 3], 0, undefined, {x: 1}, new Date(1), null, {}, /abc/, new Date(0), 'abc', [], NaN ].sort(totalOrder)
+	// [
+	//  0,
+	//  NaN,
+	//  null,
+	//  [],
+	//  [1, 2, 3],
+	//  new Date(0),
+	//  new Date(1),
+	//  {},
+	//  {x: 1},
+	//  /abc/,
+	//  'abc',
+	//  undefined,
+	// ]
+```
+
 [![License](https://img.shields.io/github/license/aureooms/js-total-order.svg)](https://raw.githubusercontent.com/aureooms/js-total-order/master/LICENSE)
 [![Version](https://img.shields.io/npm/v/total-order.svg)](https://www.npmjs.org/package/total-order)
 [![Build](https://img.shields.io/travis/aureooms/js-total-order/master.svg)](https://travis-ci.org/aureooms/js-total-order/branches)
