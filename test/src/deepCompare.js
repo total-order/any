@@ -6,7 +6,7 @@ const macro = (t, a, b, expected) => {
 	const result = deepCompare(a, b);
 	t.is(expected, result);
 	const reversedResult = deepCompare(b, a);
-	t.is(-expected | 0, reversedResult);
+	t.is(-expected || 0, reversedResult);
 };
 
 const repr = (x) => {
