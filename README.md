@@ -1,4 +1,4 @@
-[total-order](https://aureooms.github.io/js-total-order)
+:clown_face: [total-order](https://aureooms.github.io/js-total-order)
 ==
 
 A total order for all JavaScript values.
