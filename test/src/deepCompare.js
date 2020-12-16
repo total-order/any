@@ -120,7 +120,7 @@ test(
 test('circular x = {x: x}', (t) => {
 	const x = {};
 	x.x = x;
-	t.is(0, deepCompare(x, x));
+	t.is(deepCompare(x, x), 0);
 });
 
 test('circular x = y', (t) => {
@@ -128,8 +128,8 @@ test('circular x = y', (t) => {
 	x.x = x;
 	const y = {};
 	y.x = y;
-	t.is(0, deepCompare(x, y));
-	t.is(0, deepCompare(y, x));
+	t.is(deepCompare(x, y), 0);
+	t.is(deepCompare(y, x), 0);
 });
 
 test('circular x < z', (t) => {
@@ -137,8 +137,8 @@ test('circular x < z', (t) => {
 	x.y = x;
 	const z = {x: 0, z: 1};
 	z.y = z;
-	t.is(-1, deepCompare(x, z));
-	t.is(1, deepCompare(z, x));
+	t.is(deepCompare(x, z), -1);
+	t.is(deepCompare(z, x), 1);
 });
 
 test('circular x = z', (t) => {
@@ -146,8 +146,8 @@ test('circular x = z', (t) => {
 	x.y = x;
 	const z = {x: 0, z: 0};
 	z.y = z;
-	t.is(0, deepCompare(x, z));
-	t.is(0, deepCompare(z, x));
+	t.is(deepCompare(x, z), 0);
+	t.is(deepCompare(z, x), 0);
 });
 
 test('circular a = b', (t) => {
@@ -155,8 +155,8 @@ test('circular a = b', (t) => {
 	const b = [1, 2, 3];
 	a[1] = b;
 	b[1] = a;
-	t.is(0, deepCompare(a, b));
-	t.is(0, deepCompare(b, a));
+	t.is(deepCompare(a, b), 0);
+	t.is(deepCompare(b, a), 0);
 });
 
 test('circular a < b', (t) => {
@@ -164,8 +164,8 @@ test('circular a < b', (t) => {
 	const b = [1, 2, 4];
 	a[1] = b;
 	b[1] = a;
-	t.is(-1, deepCompare(a, b));
-	t.is(1, deepCompare(b, a));
+	t.is(deepCompare(a, b), -1);
+	t.is(deepCompare(b, a), 1);
 });
 
 test('README', (t) => {
