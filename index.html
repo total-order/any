@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Deep Object comparison for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="total-order"><meta property="twitter:description" content="Deep Object comparison for JavaScript"></head>
+<script src="./inject/script/0-header.js"></script><link rel="stylesheet" href="./inject/css/0-style.css"><meta name="description" content="Deep Object comparison for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="total-order"><meta property="twitter:description" content="Deep Object comparison for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -34,14 +34,27 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-a-href--https---aureooms-github-io-js-total-order--total-order--a-"><a href="https://aureooms.github.io/js-total-order">total-order</a></h1><p>A total order for all JavaScript values.
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-clown-face---a-href--https---aureooms-github-io-js-total-order--total-order--a-">:clown_face: <a href="https://aureooms.github.io/js-total-order">total-order</a></h1><p>A total order for all JavaScript values.
 See <a href="https://aureooms.github.io/js-total-order/index.html">docs</a>.</p>
 <blockquote>
 <p>:warning: The code requires <code>regeneratorRuntime</code> to be defined, for instance by importing
 <a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
 </blockquote>
 <pre><code class="lang-js"><code class="source-code prettyprint">import totalOrder from &apos;total-order&apos;
-[ [1, 2, 3], 0, undefined, {x: 1}, new Date(1), null, {}, /abc/, new Date(0), &apos;abc&apos;, [], NaN ].sort(totalOrder)
+[
+ [1, 2, 3],
+ 0,
+ undefined,
+ {x: 1},
+ new Date(1),
+ null,
+ {},
+ /abc/,
+ new Date(0),
+ &apos;abc&apos;,
+ [],
+ NaN
+].sort(totalOrder)
 // [
 //  0,
 //  NaN,
@@ -57,18 +70,16 @@ See <a href="https://aureooms.github.io/js-total-order/index.html">docs</a>.</p>
 //  undefined,
 // ]</code>
 </code></pre>
-<p><a href="https://raw.githubusercontent.com/aureooms/js-total-order/master/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-total-order.svg" alt="License"></a>
+<p><a href="https://raw.githubusercontent.com/aureooms/js-total-order/main/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-total-order.svg" alt="License"></a>
 <a href="https://www.npmjs.org/package/total-order"><img src="https://img.shields.io/npm/v/total-order.svg" alt="Version"></a>
-<a href="https://travis-ci.org/aureooms/js-total-order/branches"><img src="https://img.shields.io/travis/aureooms/js-total-order/master.svg" alt="Build"></a>
+<a href="https://travis-ci.org/aureooms/js-total-order/branches"><img src="https://img.shields.io/travis/aureooms/js-total-order/main.svg" alt="Build"></a>
 <a href="https://david-dm.org/aureooms/js-total-order"><img src="https://img.shields.io/david/aureooms/js-total-order.svg" alt="Dependencies"></a>
 <a href="https://david-dm.org/aureooms/js-total-order?type=dev"><img src="https://img.shields.io/david/dev/aureooms/js-total-order.svg" alt="Dev dependencies"></a>
 <a href="https://github.com/aureooms/js-total-order/issues"><img src="https://img.shields.io/github/issues/aureooms/js-total-order.svg" alt="GitHub issues"></a>
 <a href="https://www.npmjs.org/package/total-order"><img src="https://img.shields.io/npm/dm/total-order.svg" alt="Downloads"></a></p>
 <p><a href="https://codeclimate.com/github/aureooms/js-total-order/issues"><img src="https://img.shields.io/codeclimate/issues/aureooms/js-total-order.svg" alt="Code issues"></a>
 <a href="https://codeclimate.com/github/aureooms/js-total-order/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/aureooms/js-total-order.svg" alt="Code maintainability"></a>
-<a href="https://codecov.io/gh/aureooms/js-total-order"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-total-order/master.svg" alt="Code coverage (cov)"></a>
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-total-order/master.svg)](https://coveralls.io/r/aureooms/js-total-order)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/test_coverage_new_code)-->
+<a href="https://codecov.io/gh/aureooms/js-total-order"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-total-order/main.svg" alt="Code coverage (cov)"></a>
 <a href="https://codeclimate.com/github/aureooms/js-total-order/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/aureooms/js-total-order.svg" alt="Code technical debt"></a>
 <a href="https://aureooms.github.io/js-total-order/source.html"><img src="https://aureooms.github.io/js-total-order/badge.svg" alt="Documentation"></a>
 <a href="https://bundlephobia.com/result?p=total-order"><img src="https://img.shields.io/bundlephobia/minzip/total-order" alt="Package size"></a></p>
