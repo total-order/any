@@ -9,7 +9,20 @@ See [docs](https://aureooms.github.io/js-total-order/index.html).
 
 ```js
 import totalOrder from 'total-order'
-[ [1, 2, 3], 0, undefined, {x: 1}, new Date(1), null, {}, /abc/, new Date(0), 'abc', [], NaN ].sort(totalOrder)
+[
+ [1, 2, 3],
+ 0,
+ undefined,
+ {x: 1},
+ new Date(1),
+ null,
+ {},
+ /abc/,
+ new Date(0),
+ 'abc',
+ [],
+ NaN
+].sort(totalOrder)
 // [
 //  0,
 //  NaN,
