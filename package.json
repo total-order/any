@@ -76,14 +76,14 @@
     "url": "https://github.com/aureooms/js-total-order/issues"
   },
   "dependencies": {
-    "@aureooms/js-compare": "^1.4.8",
-    "@aureooms/js-itertools": "^5.0.0",
-    "@aureooms/js-pairs": "^0.0.0"
+    "@aureooms/js-compare": "^2.0.0",
+    "@aureooms/js-itertools": "^5.1.0",
+    "@aureooms/js-pairs": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
-    "@babel/preset-env": "7.13.10",
+    "@babel/preset-env": "7.13.12",
     "@babel/register": "7.13.8",
     "ava": "3.15.0",
     "babel-plugin-transform-remove-console": "6.9.4",
@@ -99,7 +99,7 @@
     "nyc": "15.1.0",
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.13.7",
-    "xo": "0.36.1"
+    "xo": "0.38.2"
   },
   "files": [
     "lib"
