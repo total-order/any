@@ -24,7 +24,7 @@ const deepCompare = (a, b) => {
 	const pos = [0];
 	const pendingOrChecked = Pairs.from([]);
 
-	while (left.length !== 0) {
+	while (left.length > 0) {
 		assert(left.length === right.length);
 		assert(left.length === pos.length);
 
