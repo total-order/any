@@ -41,7 +41,7 @@ import totalOrder from 'total-order'
 
 [![License](https://img.shields.io/github/license/aureooms/js-total-order.svg)](https://raw.githubusercontent.com/aureooms/js-total-order/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/total-order.svg)](https://www.npmjs.org/package/total-order)
-[![Build](https://img.shields.io/travis/aureooms/js-total-order/main.svg)](https://travis-ci.org/aureooms/js-total-order/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-total-order/main.svg)](https://travis-ci.com/aureooms/js-total-order/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-total-order.svg)](https://david-dm.org/aureooms/js-total-order)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-total-order.svg)](https://david-dm.org/aureooms/js-total-order?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-total-order.svg)](https://github.com/aureooms/js-total-order/issues)
