@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import deepCompare from "../../src/index.js";
+import deepCompare from '../../src/index.js';
 
 const macro = (t, a, b, expected) => {
 	const result = deepCompare(a, b);
@@ -37,16 +37,16 @@ test(macro, Number.NaN, Number.NaN, 0);
 test(macro, Number.NaN, 0, 1);
 test(macro, Number.NaN, 1, 1);
 test(macro, Number.NaN, -1, 1);
-test(macro, Number.NaN, Infinity, 1);
-test(macro, Number.NaN, -Infinity, 1);
-test(macro, Infinity, Infinity, 0);
-test(macro, -Infinity, -Infinity, 0);
-test(macro, -Infinity, Infinity, -1);
-test(macro, Infinity, -Infinity, 1);
-test(macro, 1, Infinity, -1);
-test(macro, -1, -Infinity, 1);
-test(macro, -1, Infinity, -1);
-test(macro, 1, -Infinity, 1);
+test(macro, Number.NaN, Number.POSITIVE_INFINITY, 1);
+test(macro, Number.NaN, Number.NEGATIVE_INFINITY, 1);
+test(macro, Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY, 0);
+test(macro, Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY, 0);
+test(macro, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY, -1);
+test(macro, Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, 1);
+test(macro, 1, Number.POSITIVE_INFINITY, -1);
+test(macro, -1, Number.NEGATIVE_INFINITY, 1);
+test(macro, -1, Number.POSITIVE_INFINITY, -1);
+test(macro, 1, Number.NEGATIVE_INFINITY, 1);
 test(macro, 1, true, 1);
 test(macro, 1, false, 1);
 test(macro, 0, true, 1);
