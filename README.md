@@ -1,8 +1,8 @@
-:clown_face: [total-order](https://aureooms.github.io/js-total-order)
+:clown_face: [total-order](https://make-github-pseudonymous-again.github.io/js-total-order)
 ==
 
 A total order for all JavaScript values.
-See [docs](https://aureooms.github.io/js-total-order/index.html).
+See [docs](https://make-github-pseudonymous-again.github.io/js-total-order/index.html).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
@@ -51,5 +51,5 @@ import totalOrder from 'total-order'
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-total-order/main.svg)](https://codecov.io/gh/aureooms/js-total-order)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-total-order.svg)](https://codeclimate.com/github/aureooms/js-total-order/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-total-order/badge.svg)](https://aureooms.github.io/js-total-order/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-total-order/badge.svg)](https://make-github-pseudonymous-again.github.io/js-total-order/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/total-order)](https://bundlephobia.com/result?p=total-order)
