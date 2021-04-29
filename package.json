@@ -65,9 +65,10 @@
     "test": "ava"
   },
   "dependencies": {
-    "@aureooms/js-compare": "^2.0.1",
-    "@aureooms/js-itertools": "^5.1.1",
-    "@aureooms/js-pairs": "^2.0.0"
+    "@data-structure/pairs": "^2.0.1",
+    "@total-order/key": "^0.0.1",
+    "@total-order/lex": "^0.0.1",
+    "@total-order/primitive": "^0.0.2"
   },
   "devDependencies": {
     "@babel/core": "7.13.16",

@@ -1,10 +1,8 @@
 import assert from 'assert';
-import {
-	increasing as compare,
-	quasilexicographical,
-	attr,
-} from '@aureooms/js-compare';
-import {MemoryEfficientPairs as Pairs} from '@aureooms/js-pairs';
+import {prop} from '@total-order/key';
+import {quasilexicographical} from '@total-order/lex';
+import {increasing as compare} from '@total-order/primitive';
+import {MemoryEfficientPairs as Pairs} from '@data-structure/pairs';
 // Import {zip} from '@aureooms/js-itertools';
 
 // Const compareIterables = (a, b) => {
@@ -148,7 +146,7 @@ const comparePrimitives = (kind, _a, _b) => {
 	}
 };
 
-const compareEntries = attr(compare, 0);
+const compareEntries = prop(compare, 0);
 // Const compareArrays = quasilexicographical(deepCompare);
 const compareStringArrays = quasilexicographical(compare);
 // Const compareObjects = (a, b) => {
