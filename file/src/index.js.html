@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-total-order"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/total-order/any"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -36,22 +36,10 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;assert&apos;;
-import {
-	increasing as compare,
-	quasilexicographical,
-	attr,
-} from &apos;@aureooms/js-compare&apos;;
-import {MemoryEfficientPairs as Pairs} from &apos;@aureooms/js-pairs&apos;;
-// Import {zip} from &apos;@aureooms/js-itertools&apos;;
-
-// Const compareIterables = (a, b) =&gt; {
-// for (const [left, right] of zip(a, b)) {
-// const delta = compare(left, right);
-// if (delta !== 0) return delta;
-// }
-
-// return 0;
-// };
+import {prop} from &apos;@total-order/key&apos;;
+import {quasilexicographical} from &apos;@total-order/lex&apos;;
+import {increasing as compare} from &apos;@total-order/primitive&apos;;
+import {MemoryEfficientPairs as Pairs} from &apos;@data-structure/pairs&apos;;
 
 const deepCompare = (a, b) =&gt; {
 	if (a === b) return 0;
@@ -185,7 +173,7 @@ const comparePrimitives = (kind, _a, _b) =&gt; {
 	}
 };
 
-const compareEntries = attr(compare, 0);
+const compareEntries = prop(compare, 0);
 // Const compareArrays = quasilexicographical(deepCompare);
 const compareStringArrays = quasilexicographical(compare);
 // Const compareObjects = (a, b) =&gt; {
