@@ -3,14 +3,14 @@
   "description": "A total order for all JavaScript values",
   "version": "1.0.1",
   "license": "AGPL-3.0",
-  "author": "aureooms",
-  "homepage": "https://make-github-pseudonymous-again.github.io/js-total-order",
+  "author": "make-github-pseudonymous-again",
+  "homepage": "https://total-order.github.io/any",
   "repository": {
     "type": "git",
-    "url": "https://github.com/make-github-pseudonymous-again/js-total-order"
+    "url": "https://github.com/total-order/any"
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-total-order/issues"
+    "url": "https://github.com/total-order/any/issues"
   },
   "keywords": [
     "arrays",
