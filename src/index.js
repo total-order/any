@@ -3,16 +3,6 @@ import {prop} from '@total-order/key';
 import {quasilexicographical} from '@total-order/lex';
 import {increasing as compare} from '@total-order/primitive';
 import {MemoryEfficientPairs as Pairs} from '@data-structure/pairs';
-// Import {zip} from '@aureooms/js-itertools';
-
-// Const compareIterables = (a, b) => {
-// for (const [left, right] of zip(a, b)) {
-// const delta = compare(left, right);
-// if (delta !== 0) return delta;
-// }
-
-// return 0;
-// };
 
 const deepCompare = (a, b) => {
 	if (a === b) return 0;
