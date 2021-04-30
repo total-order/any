@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-error@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-5.0.3.tgz#e4cb52e3525028e4725a5886663a67a0749abf6b"
-  integrity sha512-hGLMr9UIgPubX72V7vS69N8toMoK52emuA9jV/EOleK4m7HUF0HjdssNXZytd+udyY3996CBre89MOgTEn0Udw==
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1361,12 +1356,12 @@
   dependencies:
     arrify "^1.0.1"
 
-"@data-structure/pairs@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@data-structure/pairs/-/pairs-2.0.1.tgz#7003dc46a30b9ec9f5a3e3e169d19a9328fda972"
-  integrity sha512-0DuZZv62Xxs12nVTzP1trOZSojiMudJvKa9/xW8qXSBmH/xWM0VsdXQgJCZhKfGmKpjWEV884Il2v3iCLcN6CQ==
+"@data-structure/pairs@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@data-structure/pairs/-/pairs-3.0.1.tgz#860e3829a3f0295c547e0c20cdc65ba1c30ba851"
+  integrity sha512-RXx+/A2szOlfPOxlHS1r8/lmejsU8+j7Y8cUnB+zYTvqDjz6/ZPi+dhuyal5j+FTRWR5Rsi9moyTLIWn7WOgDQ==
   dependencies:
-    "@aureooms/js-error" "^5.0.3"
+    "@failure-abstraction/error" "^5.0.5"
     "@iterable-iterator/filter" "^0.0.1"
     "@iterable-iterator/map" "^0.0.1"
 
@@ -1384,6 +1379,11 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@failure-abstraction/error@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-5.0.5.tgz#0cf54ae8f76a025a8df015acd958192fb29a5e9a"
+  integrity sha512-1wYCScLBgVzSrXWDNg6KqZPCTtrbduDIxGGx3OXfGXQgWusFC8vdgKL6XLycAgsv3FRx8jardWQGYnEHUCccQQ==
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.3"
