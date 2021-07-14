@@ -67,7 +67,7 @@
   "dependencies": {
     "@data-structure/pairs": "^3.0.2",
     "@total-order/key": "^1.0.0",
-    "@total-order/lex": "^0.0.1",
+    "@total-order/lex": "^1.0.0",
     "@total-order/primitive": "^0.0.2"
   },
   "devDependencies": {
