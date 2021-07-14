@@ -2129,10 +2129,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@total-order/key@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@total-order/key/-/key-0.0.1.tgz#8325e1ceb6698cc854481a835efbdaace8ce178e"
-  integrity sha512-40PsELakDpSl02AsKIkH0pqvEb2mT97P/6AqB+jMhE9xV0m+v7ot61skTyZGWUy5kDLEI6eQaNrxchnj1InvPQ==
+"@total-order/key@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@total-order/key/-/key-1.0.0.tgz#3d59fcf9bae9bb79231f83c7671f38802395ccde"
+  integrity sha512-IPrGrxeqP6Oe7b1hrjUzDIWqMiLZV1qmlugbburk4neQKNPyjvQD1WKl0cCNepA20bwS/HrCyCCbRHPAsFm2rA==
 
 "@total-order/lex@^0.0.1":
   version "0.0.1"
