@@ -1,7 +1,7 @@
 {
   "name": "total-order",
   "description": "A total order for all JavaScript values",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://total-order.github.io/any",
