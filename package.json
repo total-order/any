@@ -67,7 +67,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@data-structure/pairs": "^4.0.0",
+    "@collection-abstraction/pairs": "^5.0.0",
     "@total-order/key": "^1.0.0",
     "@total-order/lex": "^1.0.0",
     "@total-order/primitive": "^1.0.1"

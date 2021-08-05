@@ -2,7 +2,7 @@ import assert from 'assert';
 import {prop} from '@total-order/key';
 import {quasilexicographical} from '@total-order/lex';
 import {increasing as compare} from '@total-order/primitive';
-import {MemoryEfficientPairs as Pairs} from '@data-structure/pairs';
+import {MemoryEfficientPairs as Pairs} from '@collection-abstraction/pairs';
 
 const deepCompare = (a, b) => {
 	if (a === b) return 0;
