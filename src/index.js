@@ -1,8 +1,9 @@
 import assert from 'assert';
+
+import {MemoryEfficientPairs as Pairs} from '@collection-abstraction/pairs';
 import {prop} from '@total-order/key';
 import {quasilexicographical} from '@total-order/lex';
 import {increasing as compare} from '@total-order/primitive';
-import {MemoryEfficientPairs as Pairs} from '@collection-abstraction/pairs';
 
 const deepCompare = (a, b) => {
 	// NOTE: Shortcut.
@@ -73,21 +74,27 @@ const deepCompare = (a, b) => {
 		// TODO typed arrays
 		// TODO other built-ins, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 		switch (constructor_a) {
-			case RegExp:
+			case RegExp: {
 				const delta_regexp = compare(_a.toString(), _b.toString());
 				if (delta_regexp !== 0) return delta_regexp;
 				continue;
-			case Date:
+			}
+
+			case Date: {
 				const delta_date = compare(_a.getTime(), _b.getTime());
 				if (delta_date !== 0) return delta_date;
 				continue;
-			case Array:
+			}
+
+			case Array: {
 				if (_a.length !== _b.length) return _a.length - _b.length;
 				left.push(_a);
 				right.push(_b);
 				pos.push(0);
 				continue;
-			case Object:
+			}
+
+			case Object: {
 				const keys_a = Object.keys(_a).sort(compare);
 				const keys_b = Object.keys(_b).sort(compare);
 
@@ -105,10 +112,13 @@ const deepCompare = (a, b) => {
 				right.push(values_b);
 				pos.push(0);
 				continue;
-			default:
+			}
+
+			default: {
 				throw new Error(
 					`deepCompare: unhandled constructor '${constructor_a.name}'`,
 				);
+			}
 		}
 	}
 
@@ -118,7 +128,7 @@ const deepCompare = (a, b) => {
 const comparePrimitives = (kind, _a, _b) => {
 	assert(kind !== 'object');
 	switch (kind) {
-		case 'number':
+		case 'number': {
 			if (Number.isNaN(_a)) {
 				if (Number.isNaN(_b)) return 0;
 				return 1;
@@ -127,15 +137,21 @@ const comparePrimitives = (kind, _a, _b) => {
 			if (Number.isNaN(_b)) {
 				return -1;
 			}
+		}
 
 		case 'boolean':
 		case 'string':
-		case 'bigint':
+		case 'bigint': {
 			return compare(_a, _b);
-		case 'function':
+		}
+
+		case 'function': {
 			return compare(_a.toString(), _b.toString());
-		default:
+		}
+
+		default: {
 			throw new Error(`deepCompare: unhandled primitive type '${kind}'`);
+		}
 	}
 };
 
