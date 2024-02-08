@@ -217,7 +217,8 @@
         {
           "case": "camelCase"
         }
-      ]
+      ],
+      "unicorn/prevent-abbreviations": "off"
     },
     "overrides": [
       {
