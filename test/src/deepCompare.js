@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import deepCompare from '../../src/index.js';
+import deepCompare from '#module';
 
 const macro = (t, a, b, expected) => {
 	const result = deepCompare(a, b);

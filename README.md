@@ -41,7 +41,7 @@ import totalOrder from 'total-order'
 
 [![License](https://img.shields.io/github/license/total-order/any.svg)](https://raw.githubusercontent.com/total-order/any/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/total-order.svg)](https://www.npmjs.org/package/total-order)
-[![Tests](https://img.shields.io/github/workflow/status/total-order/any/ci:test?event=push&label=tests)](https://github.com/total-order/any/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/total-order/any/ci?event=push&label=tests)](https://github.com/total-order/any/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/total-order/any.svg)](https://github.com/total-order/any/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/total-order/any.svg)](https://github.com/total-order/any/issues)
 [![Downloads](https://img.shields.io/npm/dm/total-order.svg)](https://www.npmjs.org/package/total-order)
