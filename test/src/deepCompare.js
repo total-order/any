@@ -63,6 +63,7 @@ test(macro, 'a', 'a', 0);
 test(macro, 'a', undefined, -1);
 test(macro, undefined, 'a', 1);
 test(macro, undefined, undefined, 0);
+test(macro, [undefined], [undefined], 0);
 test(macro, null, null, 0);
 test(macro, null, undefined, -1);
 test(macro, undefined, null, 1);

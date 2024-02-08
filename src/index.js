@@ -5,6 +5,7 @@ import {increasing as compare} from '@total-order/primitive';
 import {MemoryEfficientPairs as Pairs} from '@collection-abstraction/pairs';
 
 const deepCompare = (a, b) => {
+	// NOTE: Shortcut.
 	if (a === b) return 0;
 
 	const left = [[a]];
@@ -34,6 +35,8 @@ const deepCompare = (a, b) => {
 
 		const _a = array_a[i];
 		const _b = array_b[i];
+		if (_a === _b) continue;
+
 		const typeof_a = typeof _a;
 		const typeof_b = typeof _b;
 
